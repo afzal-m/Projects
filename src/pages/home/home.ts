@@ -7,7 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  display = "Text Test"
+
   constructor(public navCtrl: NavController) {
+
+  }
+
+  doSomething(){
+    this.display = "You clicked it!"
 
   }
 
